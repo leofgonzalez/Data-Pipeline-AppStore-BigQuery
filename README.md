@@ -1,4 +1,4 @@
-# Data-Pipeline-AppStore-BigQuery
+# Building an automated Data Pipeline from App Store Data to BigQuery using only Python
 
 This repository contains a comprehensive guide on automating the integration of App Store data into Google BigQuery using Python and Google Cloud services. The project provides a scalable solution for extracting, transforming, and loading (ETL) App Store metrics to analyze app performance and optimize user acquisition strategies.
 
@@ -7,12 +7,13 @@ Medium Articles with the complete guide through documentation:
 - Portuguese version: [Link](https://medium.com/@leofgonzalez/construindo-do-zero-uma-pipeline-de-dados-automatizada-entre-os-os-dados-da-app-store-e-o-bigquery-e36c3c79e60b)
 
 ## Project Overview
-Automates the integration of App Store data into BigQuery to generate actionable insights for user acquisition strategies. Key metrics include app installs, impressions, and UTM parameters. The pipeline is built using Python on Google Cloud Functions and Cloud Storage, designed for scalability and cost-efficiency.
+Automates the integration of App Store data into BigQuery to generate actionable insights for user acquisition strategies. Key metrics include app installs, impressions, and UTM parameters. The pipeline is built using Python on Google Cloud Functions and other Google Cloud services, designed for scalability and cost-efficiency.
 
-## Key Sections:
+## Key Sections of the guide on Medium:
 - Environment Setup and Security Permissions: Using Google Cloud services for a secure, automated data pipeline.
 - Code Development: Python code for data extraction, sanitization, and loading into BigQuery.
 - Validation: Ensuring accurate data processing and monitoring performance.
+- Future improvements recommended by the author
 
 ## TLTR
 A flexible, automated data pipeline that integrates App Store metrics into BigQuery, enabling better decision-making for app growth strategies.
